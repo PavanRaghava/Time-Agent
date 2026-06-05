@@ -3,6 +3,8 @@ Time Agent
 
 A small FastAPI-based demo that serves a chat-style UI (`agent.ui`) and returns the current local time for requested cities.
 
+We have statically configured a list of cities and their UTC offsets. Based on this configuration, our agent can answer city-related queries, such as "What is the current time in New York?".
+
 Quick start
 -----------
 1. Install dependencies (recommended in a virtualenv):
